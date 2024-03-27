@@ -49,3 +49,20 @@ body {
 .aspect-ratio {
     aspect-ratio: 1;
 }
+
+/* *********************************************************************** RESPONSIVE MEDIA QUERY *********************************************************************** */
+
+/* TABLET  */
+@media all and (max-width: 878px) {
+    
+}
+
+/* MOBILE  */
+@media all and (max-width: 639px) {
+    
+}
+
+/* MOBILE SM  */
+@media all and (max-width: 552px) {
+    
+}
