@@ -1,3 +1,5 @@
+/* *********************************************************************** COMMON STYLE *********************************************************************** */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +8,44 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap-item {
+    gap: 1rem;
+}
+
+.gap-item-md {
+    gap: 2rem;
+}
+
+.gap-item-bg {
+    gap: 3rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: lightgray;
+}
+
+.font-sm {
+    font-size: 0.7rem;
+}
+
+.padd-div {
+    padding: 1rem;
+}
+
+.aspect-ratio {
+    aspect-ratio: 1;
 }
