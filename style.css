@@ -18,6 +18,14 @@ body {
     flex-direction: column;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.gap-item-sm {
+    gap: 0.5rem;
+}
+
 .gap-item {
     gap: 1rem;
 }
@@ -39,7 +47,7 @@ body {
 }
 
 .font-sm {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .padd-div {
@@ -50,11 +58,35 @@ body {
     aspect-ratio: 1;
 }
 
+.img-icon {
+    width: 1.2rem;
+}
+
+.img-icon-sm {
+    width: 0.8rem;
+}
+
 /* *********************************************************************** BAR LEFT *********************************************************************** */
 
 #bar-left {
     background-color: black;
     width: 10rem;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+}
+
+.new-playlist i {
+    background-color: lightgray;
+    color: black;
+    padding: 0.5rem;
+}
+
+.footer-bar-left {
+    position: absolute;
+    bottom: 1rem;
 }
 
 /* *********************************************************************** BOX CONTENT *********************************************************************** */
