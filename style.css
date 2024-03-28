@@ -164,9 +164,9 @@ footer {
     height: 6rem;
 }
 
-.column-left-footer {
+.column-left-footer,
+.column-right-footer {
     width: 20%;
-
 }
 
 .box-cover-sm {
@@ -226,15 +226,13 @@ footer {
     top: -3.5px;
 }
 
-.column-right-footer {
-    width: 20%;
-}
-
 /* *********************************************************************** RESPONSIVE MEDIA QUERY *********************************************************************** */
 
 /* TABLET  */
 @media all and (max-width: 878px) {
-    
+    .album-cover {
+        width: calc(100% / 4 - 0.5rem);
+    }
 }
 
 /* MOBILE  */
