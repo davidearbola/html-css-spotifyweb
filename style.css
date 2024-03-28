@@ -86,6 +86,10 @@ body {
     display: flex;
 }
 
+#logo-mobile {
+    display: none;
+}
+
 .new-playlist i {
     background-color: lightgray;
     color: black;
@@ -162,6 +166,9 @@ body {
 footer {
     background-color: #282828;
     height: 6rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .column-left-footer,
@@ -259,5 +266,39 @@ footer {
 
 /* MOBILE SM  */
 @media all and (max-width: 552px) {
+    #bar-left p,
+    #bar-left .playlist,
+    #bar-left h5 {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logo-mobile {
+        display: block;
+        width: 1.5rem;
+    }
+
+    #bar-left {
+        width: 3.5rem;
+    }
+
+    #box-content {
+        width: calc(100% - 3.5rem);
+    }
+
+    .box-cover-sm h5,
+    .box-cover-sm p {
+        font-size: 0.5rem;
+    }
     
+    .column-left-footer {
+        width: 25%;
+    }
+
+    .bar-play-down {
+        justify-content: space-between;
+    }
 }
