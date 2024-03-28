@@ -26,6 +26,14 @@ body {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
 .gap-item-sm {
     gap: 0.5rem;
 }
@@ -154,6 +162,72 @@ body {
 footer {
     background-color: #282828;
     height: 6rem;
+}
+
+.column-left-footer {
+    width: 20%;
+
+}
+
+.box-cover-sm {
+    width: 70%;
+}
+
+.box-cover-sm img {
+    width: 25%;
+}
+
+.fa-circle-play {
+    font-size: 2rem;
+}
+
+.column-center-footer {
+    width: 40%;
+}
+
+.bar-play-up {
+    margin: 0 auto;
+}
+
+.bar-play-down {
+    justify-content: space-around;
+}
+
+.play-down-left span,
+.play-down-right span {
+    font-size: 0.5rem;
+}
+
+.play-down-left,
+.play-down-right {
+    width: 5%;
+}
+
+.play-down-center {
+    width: 70%;
+    background-color: #5A5A5A;
+    height: 3px;
+}
+
+.bar-play {
+    width: 30%;
+    background-color: white;
+    height: 3px;
+    position: relative;
+}
+
+.circle-play {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -3.5px;
+}
+
+.column-right-footer {
+    width: 20%;
 }
 
 /* *********************************************************************** RESPONSIVE MEDIA QUERY *********************************************************************** */
