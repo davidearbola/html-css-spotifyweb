@@ -237,7 +237,24 @@ footer {
 
 /* MOBILE  */
 @media all and (max-width: 639px) {
-    
+    .album-cover {
+        width: calc(100% / 2 - 0.5rem);
+    }
+
+    .box-icon-sm {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .column-left-footer,
+    .column-right-footer {
+        width: 30%;
+    }
+
+    .bar-play-down {
+        justify-content: center;
+    }
 }
 
 /* MOBILE SM  */
