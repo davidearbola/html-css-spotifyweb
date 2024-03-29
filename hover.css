@@ -1,0 +1,21 @@
+/* *********************************************************************** HOVER BAR LEFT *********************************************************************** */
+
+#bar-left p:hover {
+    color:white;
+}
+
+.home:hover,
+.search:hover,
+.library:hover {
+    box-shadow: 3px 0 0 green inset;
+    color: white;
+}
+
+.new-playlist:hover i {
+    background-color: white;
+}
+
+.new-playlist:hover p {
+    color: white;
+}
+

@@ -7,32 +7,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
     <title>Spotify</title>
 </head>
 <body>
     <main class="container">
         <!--  BAR LEFT  -->
         <div id="bar-left" class="container flex-column gap-item-md padd-div text-grey">
-            <div class="logo">
+            <div class="logo padd-left">
                 <img id="logo" src="./spotify/img/logo.svg" alt="">
                 <img id="logo-mobile" src="./spotify/img/logo-small.svg" alt="">
             </div>
             <nav class="container flex-column gap-item-sm">
-                <div class="home container align-center gap-item-sm">
+                <div class="home container align-center gap-item-sm padd-left">
                     <img class="img-icon" src="./spotify/img/home.svg" alt="">
                     <p class="font-sm">Home</p>
                 </div>
-                <div class="home container align-center gap-item-sm">
+                <div class="search container align-center gap-item-sm padd-left">
                     <img class="img-icon" src="./spotify/img/search.svg" alt="">
                     <p class="font-sm">Cerca</p>
                 </div>
-                <div class="home container align-center gap-item-sm">
+                <div class="library container align-center gap-item-sm padd-left">
                     <img class="img-icon" src="./spotify/img/libreria.svg" alt="">
                     <p class="font-sm">La tua libreria</p>
                 </div>
             </nav>
-            <div class="playlist container flex-column gap-item-sm">
-                <h4>Playlist</h4>
+            <div class="playlist container flex-column gap-item-sm padd-left">
+                <h4 class="text-white">Playlist</h4>
                 <div class="new-playlist container align-center gap-item-sm">
                     <i class="fa-solid fa-plus"></i>
                     <p class="font-sm">Crea Playlist</p>
@@ -44,15 +45,15 @@
                 <p class="font-sm">Nuova Playlist</p>
                 <p class="font-sm">Nuova Playlist</p>
             </div>
-            <div class="footer-bar-left container flex-column gap-item-sm">
+            <div class="footer-bar-left container flex-column gap-item-sm padd-left">
                 <div class="install container align-center gap-item-sm">
                     <img class="img-icon-sm" src="./spotify/img/download.svg" alt="">
                     <p class="font-sm">Installa App</p>
                 </div>
                 <hr>
                 <div class="profile container align-center gap-item-sm">
-                    <img class="img-icon-sm" src="./spotify/img/profile.svg" alt="">
-                    <h5>JOHN DOE</h5>
+                    <img class="img-icon-sm icon-profile" src="./spotify/img/profile.svg" alt="">
+                    <h5 class="text-white">JOHN DOE</h5>
                 </div>
             </div>
         </div>
@@ -84,7 +85,7 @@
                                     </div>
                                     <div class="title-cover">
                                         <h4>Heavy Metal</h4>
-                                        <p>Subtitle</p>
+                                        <p class="text-grey font-sm">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="album-cover">
@@ -93,7 +94,7 @@
                                     </div>
                                     <div class="title-cover">
                                         <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
-                                        <p>Kilye Dixon and Michael Stein</p>
+                                        <p class="text-grey font-sm">Kilye Dixon and Michael Stein</p>
                                     </div>
                                 </div>
                                 <div class="album-cover">
@@ -102,7 +103,7 @@
                                     </div>
                                     <div class="title-cover">
                                         <h4>A Queit Place</h4>
-                                        <p>Subtitle</p>
+                                        <p class="text-grey font-sm">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="album-cover">
@@ -111,7 +112,7 @@
                                     </div>
                                     <div class="title-cover">
                                         <h4>Split</h4>
-                                        <p>Subtitle</p>
+                                        <p class="text-grey font-sm">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="album-cover">
@@ -120,7 +121,7 @@
                                     </div>
                                     <div class="title-cover">
                                         <h4>A cure for Wellness</h4>
-                                        <p>Subtitle</p>
+                                        <p class="text-grey font-sm">Subtitle</p>
                                     </div>
                                 </div>
                                 <div class="album-cover">
@@ -129,13 +130,14 @@
                                     </div>
                                     <div class="title-cover">
                                         <h4>Sinister</h4>
-                                        <p>Subtitle</p>
+                                        <p class="text-grey font-sm">Subtitle</p>
                                     </div>
                                 </div>
                             </div>
                     </div>
                     <div class="album-for-you container flex-column gap-item">
                         <h2>Creato per Jonh Doe</h2>
+                        <p class="font-sm text-grey">Più ascolti, più accurati saranni i suggerimenti</p>
                         <div class="album-list container gap-item-sm wrap">
                             <div class="album-cover">
                                 <div class="img-cover">
@@ -157,6 +159,7 @@
                     </div>
                     <div class="album-popular container flex-column gap-item">
                         <h2>Artisti più popolari</h2>
+                        <p class="font-sm text-grey">Più ascolti, più accurati saranni i suggerimenti</p>
                         <div class="album-list container gap-item-sm wrap">
                             <div class="album-cover">
                                 <div class="img-cover">
@@ -187,12 +190,12 @@
                     <img src="./spotify/img/sinister.jpeg" alt="">
                     <div>
                         <h5 class="font-sm">Sinister</h5>
-                        <p class="font-sm">Brano nome</p>
+                        <p class="font-sm text-grey">Brano nome</p>
                     </div>
                 </div>
                 <div class="box-icon-sm">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-folder"></i>
+                    <i class="fa-regular fa-heart text-grey"></i>
+                    <i class="fa-regular fa-folder text-grey"></i>
                 </div>
             </div>
             <div class="column-center-footer container flex-column gap-item-sm">

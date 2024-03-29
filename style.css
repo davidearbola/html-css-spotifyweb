@@ -55,7 +55,7 @@ body {
 }
 
 .text-grey {
-    color: lightgray;
+    color: #9A9A9A;
 }
 
 .font-sm {
@@ -64,6 +64,10 @@ body {
 
 .padd-div {
     padding: 1rem;
+}
+
+.padd-left {
+    padding-left: 1rem;
 }
 
 .img-icon {
@@ -80,6 +84,7 @@ body {
     background-color: black;
     width: 10rem;
     position: relative;
+    padding-left: 0;
 }
 
 .logo {
@@ -99,6 +104,11 @@ body {
 .footer-bar-left {
     position: absolute;
     bottom: 1rem;
+}
+
+.icon-profile {
+    background-color: grey;
+    border-radius: 50%;
 }
 
 /* *********************************************************************** BOX CONTENT *********************************************************************** */
