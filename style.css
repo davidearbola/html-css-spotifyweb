@@ -195,7 +195,7 @@ body {
 footer {
     background-color: #282828;
     height: 6rem;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
