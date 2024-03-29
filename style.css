@@ -186,6 +186,10 @@ body {
     text-align: center;
 }
 
+.album-popular {
+    padding-bottom: 6rem;
+}
+
 .album-popular img {
     border-radius: 50%;
 }
