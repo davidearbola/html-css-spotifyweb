@@ -165,8 +165,12 @@ body {
 }
 
 .box-overflow {
-    overflow: auto;
+    overflow-y: scroll;
 }
+
+.box-overflow::-webkit-scrollbar {
+    display: none;
+  }
 
 .album-cover {
     width: calc(100% / 6 - 0.5rem);
