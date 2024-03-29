@@ -64,3 +64,26 @@
 .img-cover:hover .hover-play {
     display: block;
 }
+
+/* *********************************************************************** HOVER FOOTER *********************************************************************** */
+
+.box-cover-sm p:hover {
+    text-decoration-line: underline;
+    color: white;
+}
+
+.box-icon-sm i:hover {
+    color: white;
+}
+
+.fa-circle-play:hover {
+    transform: scale(1.1);
+}
+
+.play-down-center:hover .bar-play {
+    background-color: green;
+}
+
+.play-down-center:hover .circle-play {
+    display: block;
+}
