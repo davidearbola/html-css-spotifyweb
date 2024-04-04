@@ -104,6 +104,12 @@ body {
 .footer-bar-left {
     position: absolute;
     bottom: 1rem;
+    background-color: black;
+    width: 100%;
+}
+
+.footer-bar-left hr {
+    width: 70%;
 }
 
 .icon-profile {
@@ -336,3 +342,21 @@ footer {
         justify-content: space-between;
     }
 }
+
+/* HEIGHT INFERIORE A 520 PX  */
+
+@media all and (max-height: 520px) {
+    .playlist {
+        display: none;
+    }
+}
+
+/* HEIGHT INFERIORE A 350 PX  */
+
+@media all and (max-height: 350px) {
+    .install,
+    .footer-bar-left hr {
+        display: none;
+    }
+}
+
